@@ -1,0 +1,88 @@
+// Here you can add other styles
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.ProductItemWrap{
+    position: relative;
+}
+
+.media-right{
+    position: absolute;
+    right: 10px;
+}
+
+.table th, .table td{
+    vertical-align: middle;
+}
+
+input[type="file"] {
+    opacity: 0;
+    height: 35px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.UploadCustom {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 150px;
+    pointer-events: none;
+}
+
+.multi-preview {
+    width: 100%;
+}
+
+.multi-preview img {
+    display: inline-block;
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 0 15px 15px 0;
+}
+
+.dataTables_paginate {
+    float: right;
+}
+
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+}
+
+.pagination > li {
+    display: inline;
+}
+
+.pagination > .disabled > a, .pagination > .disabled > a:focus, .pagination > .disabled > a:hover, .pagination > .disabled > span, .pagination > .disabled > span:focus, .pagination > .disabled > span:hover {
+    color: #777;
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+.pagination > li > a, .pagination > li > span {
+    background-color: #fff;
+    border: 1px solid #ddd;
+        border-top-color: rgb(221, 221, 221);
+        border-right-color: rgb(221, 221, 221);
+        border-bottom-color: rgb(221, 221, 221);
+        border-left-color: rgb(221, 221, 221);
+    color: inherit;
+    float: left;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 4px 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+.pagination > .active > a {
+    pointer-events: none;
+}
